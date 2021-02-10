@@ -1,7 +1,6 @@
 module.exports = {
   title: "Okta Multi Tenant Admin",
   description: "Identity Management for Multi-Tenant Applications",
-  base: "/okta-dac-docs/",
   themeConfig: {
     // repo: "oktadeveloper/okta-dac-docs",
     repo: "oktadeveloper/okta-dac",
