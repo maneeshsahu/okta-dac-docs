@@ -1,6 +1,7 @@
 module.exports = {
   title: "Okta Multi Tenant Admin",
   description: "Identity Management for Multi-Tenant Applications",
+  base: "/okta-dac-docs/",
   themeConfig: {
     // repo: "oktadeveloper/okta-dac-docs",
     repo: "oktadeveloper/okta-dac",
@@ -17,7 +18,7 @@ module.exports = {
     sidebar: {
       "/guide/": getGuideSidebar(),
       "/setup/": getSetupSidebar(),
-      "/api/": getApiSidebar()
+      "/api/": getApiSidebar(),
     },
     /*algolia: {
       apiKey: "191db45e6f87475d6a1256d5a4298324",
@@ -82,12 +83,11 @@ function getSetupSidebar() {
 }
 
 function getApiSidebar() {
-    return [
-      {
-        title: "API",
-        collapsable: false,
-        children: [""],
-      },
-    ];
-  }
-  
+  return [
+    {
+      title: "API",
+      collapsable: false,
+      children: [""],
+    },
+  ];
+}

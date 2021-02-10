@@ -9,7 +9,7 @@ features:
     details: Enable customers that have their own IdPs to self configure their tenant for IdP authentication.
   - title: Configure Entitlements
     details: Enable customers to self-manage users in their own tenants.
-footer: MIT Licensed | Created by [@zeekhoo](https://github.com/zeekhoo) and [@maneeshsahu](https://github.com/maneeshsahu)
+footer: MIT Licensed | Created by @zeekhoo + @maneeshsahu
 ---
 
 # Introduction
@@ -18,11 +18,12 @@ The Okta Identity Cloud provides a rich set of APIs and services that can be use
 
 ![alt text](./images/saas.png)
 
-There are generally 2 approaches when it comes to architecting multitenancy with Okta. The first involves what's known as "hub and spoke" architecture, which requires an Okta Org for each tenant and incurs additional cost and overhead. The second involves only one Org. 
+There are generally 2 approaches when it comes to architecting multitenancy with Okta. The first involves what's known as "hub and spoke" architecture, which requires an Okta Org for each tenant and incurs additional cost and overhead. The second involves only one Org.
 
 This documentation focuses on the second approach. If you're building a multitenant application, read on to decide if the single org architecture is right for you.
 
 ## Next Steps
+
 Navigate to the [Guide](/guide) section to get started.
 
 ::: warning Disclaimer
